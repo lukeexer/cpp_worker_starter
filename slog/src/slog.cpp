@@ -1,4 +1,4 @@
-#include "slog.h"
+#include <slog/slog.h>
 
 void SLog::init(SLogSeverity severity) {
     logging::add_file_log

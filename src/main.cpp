@@ -1,6 +1,6 @@
 #include <string>
 
-#include <slog.h>
+#include <slog/slog.h>
 
 using namespace std;
 

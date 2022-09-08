@@ -8,4 +8,6 @@ add_executable(sworker)
 
 target_sources(sworker PRIVATE src/main.cpp)
 target_include_directories(sworker PRIVATE include)
-target_link_libraries(sworker PRIVATE slog)
+target_link_libraries(
+    sworker
+    PRIVATE slog)
