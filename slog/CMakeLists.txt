@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 
 project(slog)
 
-find_package(Boost COMPONENTS program_options log log_setup REQUIRED)
+find_package(Boost COMPONENTS REQUIRED program_options log log_setup)
 
 add_library(slog)
 

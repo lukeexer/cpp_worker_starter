@@ -8,12 +8,11 @@ int main(int, char*[])
 {
     string greeting = "Hello"; 
 
-    SLog slog;
-    slog.init(SLogSeverity::INFO);
-    slog.log_debug(greeting);
-    slog.log_info(greeting);
-    slog.log_warning(greeting);
-    slog.log_error(greeting);
+    SLog::init(SLogSeverity::INFO);
+    SLog::log_debug(greeting);
+    SLog::log_info(greeting);
+    SLog::log_warning(greeting);
+    SLog::log_error(greeting);
 
     return 0;
 }
